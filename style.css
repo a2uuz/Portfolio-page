@@ -3,10 +3,10 @@
 
 /* Custom properties/variables  */
 :root {
-  --main-white: #ff0000;
+  --main-white: #000000;
   --main-red: #000;
   --main-blue: #ffffff;
-  --main-gray: #eeeeee;
+  --main-gray: #dddddd;
 }
 
 
@@ -110,8 +110,8 @@ img {
 }
 
 /* nav */
-#nav{
-  text-align: center;
+#navbar{
+  background-color: #ffffff;
 }  
 
 .nav {
@@ -121,6 +121,7 @@ img {
   left: 0;
   width: 100%;
   background: var(--main-red);
+  box-shadow: rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
 
@@ -160,7 +161,7 @@ img {
   height: 100vh;
  
  background-color: #000000;
-background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+background-image: linear-gradient(147deg, #ffffff 0%, #04619f 74%);
 }
 
 .welcome-section > p {
