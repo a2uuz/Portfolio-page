@@ -3,10 +3,10 @@
 
 /* Custom properties/variables  */
 :root {
-  --main-white: #F5F7FA;
+  --main-white: #ff0000;
   --main-red: #000;
-  --main-blue: #04619F;
-  --main-gray: #04619F;
+  --main-blue: #ffffff;
+  --main-gray: #eeeeee;
 }
 
 
@@ -110,16 +110,17 @@ img {
 }
 
 /* nav */
+#nav{
+  text-align: center;
+}  
 
 .nav {
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
+  display :inline-block;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   background: var(--main-red);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
 
